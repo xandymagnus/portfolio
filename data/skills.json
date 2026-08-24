@@ -1,0 +1,43 @@
+{
+  "languages": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "C"
+  ],
+  "frontend": [
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Vue.js"
+  ],
+  "backend": [
+    "FastAPI",
+    "Node.js",
+    "REST APIs"
+  ],
+  "database": [
+    "SQLite",
+    "PostgreSQL",
+    "SQL"
+  ],
+  "tools": [
+    "Git",
+    "GitHub",
+    "Docker",
+    "Linux"
+  ],
+  "learning": [
+    "Cloud Computing",
+    "Arquitetura de Software",
+    "Docker Avançado",
+    "Inglês Técnico"
+  ],
+  "levels": {
+    "Python": 82,
+    "JavaScript": 70,
+    "HTML/CSS": 78,
+    "SQL": 65,
+    "Docker": 45
+  }
+}
