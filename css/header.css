@@ -1,0 +1,206 @@
+/* =====================================================
+   HEADER.CSS
+===================================================== */
+
+.header{
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    height:var(--header-height);
+
+    backdrop-filter:blur(18px);
+
+    background:rgba(9,9,11,.65);
+
+    border-bottom:1px solid rgba(255,255,255,.05);
+
+}
+
+/* NAVBAR */
+
+.navbar{
+
+    height:var(--header-height);
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+/* LOGO */
+
+.logo{
+
+    font-size:1.5rem;
+    font-weight:700;
+
+    color:var(--color-white);
+
+    display:flex;
+    align-items:center;
+    gap:.25rem;
+
+}
+
+.logo-highlight{
+
+    color:var(--color-primary);
+
+}
+
+/* MENU */
+
+.nav-menu{
+
+    display:flex;
+    align-items:center;
+    gap:2rem;
+
+}
+
+.nav-menu a{
+
+    color:var(--color-text-secondary);
+    font-weight:500;
+
+    position:relative;
+
+    transition:var(--transition-fast);
+
+}
+
+/* LINHA EMBAIXO DO LINK */
+
+.nav-menu a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:-6px;
+
+    width:0%;
+    height:2px;
+
+    background:var(--color-primary);
+
+    transition:var(--transition-normal);
+
+}
+
+.nav-menu a:hover{
+
+    color:var(--color-white);
+
+}
+
+.nav-menu a:hover::after{
+
+    width:100%;
+
+}
+
+/* BOTÕES DA DIREITA */
+
+.header-actions{
+
+    display:flex;
+    align-items:center;
+    gap:1rem;
+
+}
+
+.language-button,
+.theme-button,
+.menu-button{
+
+    width:44px;
+    height:44px;
+
+    border-radius:50%;
+
+    border:1px solid var(--color-border);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    transition:var(--transition-fast);
+
+}
+
+.language-button{
+
+    width:auto;
+    padding:0 1rem;
+
+    border-radius:var(--radius-pill);
+
+}
+
+.language-button:hover,
+.theme-button:hover,
+.menu-button:hover{
+
+    border-color:var(--color-primary);
+
+    color:var(--color-primary-light);
+
+}
+
+/* MENU MOBILE */
+
+.menu-button{
+
+    display:none;
+
+}
+
+/* NAVBAR COM SCROLL */
+
+.header.scrolled{
+
+    background:rgba(9,9,11,.95);
+
+    box-shadow:var(--shadow-md);
+
+}
+
+@media (max-width: 768px){
+
+    .menu-button{
+        display:flex;
+    }
+
+    .nav-menu{
+
+        position:absolute;
+
+        top:100%;
+        left:0;
+
+        width:100%;
+
+        background:var(--color-surface);
+
+        flex-direction:column;
+
+        padding:2rem;
+
+        gap:1.5rem;
+
+        display:none;
+
+        border-bottom:1px solid var(--color-border);
+
+    }
+
+    .nav-menu.active{
+        display:flex;
+    }
+
+}
