@@ -1,0 +1,355 @@
+/* =====================================================
+   GLOBAL.CSS
+===================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+/* BODY */
+
+body{
+
+    background:var(--color-background);
+    color:var(--color-text);
+
+    font-family:var(--font-primary);
+    line-height:var(--line-height);
+
+}
+
+/* CONTAINER */
+
+.container{
+
+    width:min(100% - 3rem, var(--container-width));
+    margin-inline:auto;
+
+}
+
+/* SECTIONS */
+
+section{
+
+    padding:var(--space-8) 0;
+
+}
+
+/* SECTION TITLE */
+
+.section-title{
+
+    margin-bottom:var(--space-5);
+
+}
+
+.section-title p{
+
+    color:var(--color-primary);
+    font-size:var(--fs-sm);
+    font-weight:var(--fw-bold);
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    margin-bottom:.5rem;
+
+}
+
+.section-title h2{
+
+    font-size:var(--fs-2xl);
+    font-weight:var(--fw-bold);
+
+    color:var(--color-white);
+
+}
+
+/* HEADINGS */
+
+h1,h2,h3,h4{
+
+    line-height:1.2;
+
+}
+
+h1{
+
+    font-size:var(--fs-4xl);
+
+}
+
+h2{
+
+    font-size:var(--fs-2xl);
+
+}
+
+h3{
+
+    font-size:var(--fs-xl);
+
+}
+
+h4{
+
+    font-size:var(--fs-lg);
+
+}
+
+p{
+
+    color:var(--color-text-secondary);
+
+}
+
+/* LINKS */
+
+a{
+
+    transition:var(--transition-fast);
+
+}
+
+a:hover{
+
+    color:var(--color-primary-light);
+
+}
+
+/* BUTTONS */
+
+.button-primary{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:1rem 1.5rem;
+
+    background:var(--color-primary);
+    color:white;
+
+    border-radius:var(--radius-pill);
+
+    font-weight:600;
+
+    transition:var(--transition-normal);
+
+}
+
+.button-primary:hover{
+
+    background:var(--color-primary-dark);
+    transform:translateY(-2px);
+
+    box-shadow:var(--shadow-blue);
+
+}
+
+.button-secondary{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:1rem 1.5rem;
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-pill);
+
+    transition:var(--transition-normal);
+
+}
+
+.button-secondary:hover{
+
+    border-color:var(--color-primary);
+    color:var(--color-primary-light);
+
+}
+
+/* BADGES */
+
+.badge{
+
+    display:inline-flex;
+
+    padding:.5rem 1rem;
+
+    border-radius:var(--radius-pill);
+
+    background:rgba(37,99,235,.15);
+
+    color:var(--color-primary-light);
+
+    font-size:var(--fs-sm);
+    font-weight:var(--fw-medium);
+
+}
+
+/* CARDS */
+
+.card{
+
+    background:var(--color-surface);
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-xl);
+
+    padding:var(--space-4);
+
+    transition:var(--transition-normal);
+
+}
+
+.card:hover{
+
+    border-color:var(--color-primary);
+    transform:translateY(-5px);
+
+    box-shadow:var(--shadow-md);
+
+}
+
+/* GRID */
+
+.grid{
+
+    display:grid;
+    gap:2rem;
+
+}
+
+.grid-2{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.grid-3{
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+/* INPUTS */
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:1rem;
+
+    background:transparent;
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-md);
+
+    transition:var(--transition-fast);
+
+}
+
+input:focus,
+textarea:focus{
+
+    border-color:var(--color-primary);
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+textarea{
+
+    resize:vertical;
+    min-height:160px;
+
+}
+
+/* DIVIDER */
+
+.divider{
+
+    width:100%;
+    height:1px;
+
+    background:var(--color-border);
+
+    margin:var(--space-5) 0;
+
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--color-background);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--color-surface-light);
+
+    border-radius:999px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--color-primary);
+
+}
+
+/* TEXT SELECTION */
+
+::selection{
+
+    background:var(--color-primary);
+    color:white;
+
+}
+
+/* CODE */
+
+code{
+
+    font-family:var(--font-code);
+
+    color:var(--color-primary-light);
+
+}
+
+/* ICON PLACEHOLDER */
+
+.icon{
+
+    width:24px;
+    height:24px;
+
+}
+
+/* UTILITY CLASSES */
+
+.text-center{
+    text-align:center;
+}
+
+.text-primary{
+    color:var(--color-primary);
+}
+
+.text-secondary{
+    color:var(--color-text-secondary);
+}
+
+.hidden{
+    display:none;
+}
