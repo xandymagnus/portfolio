@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Sistema de Gerenciamento de Horários Escolares",
+    "category": "javascript",
+    "description": "Sistema Full Stack para gerenciamento de horários escolares, professores, disciplinas e salas.",
+    "image": "assets/images/project-school-manager.png",
+    "github": "https://github.com/xandymagnus",
+    "demo": "#",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "SQL"
+    ],
+    "featured": true
+  },
+
+  {
+    "id": 2,
+    "title": "Averating — Calculadora de Notas",
+    "category": "html-css",
+    "description": "Aplicação inspirada no MyAnimeList para calcular médias de notas utilizando SQLite e JavaScript.",
+    "image": "assets/images/project-averating.png",
+    "github": "https://github.com/xandymagnus",
+    "demo": "#",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "SQLite"
+    ],
+    "featured": true
+  },
+
+  {
+    "id": 3,
+    "title": "Portfólio Profissional",
+    "category": "html-css",
+    "description": "Portfólio desenvolvido com HTML, CSS e JavaScript seguindo arquitetura modular.",
+    "image": "assets/images/project-portfolio.png",
+    "github": "https://github.com/xandymagnus",
+    "demo": "#",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "featured": false
+  },
+
+  {
+    "id": 4,
+    "title": "API REST com FastAPI",
+    "category": "python",
+    "description": "API REST utilizando FastAPI, autenticação JWT e PostgreSQL.",
+    "image": "assets/images/project-fastapi.png",
+    "github": "https://github.com/xandymagnus",
+    "demo": "#",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "featured": true
+  },
+
+  {
+    "id": 5,
+    "title": "Projetos de Robótica Educacional",
+    "category": "robotics",
+    "description": "Projetos desenvolvidos durante aulas de robótica utilizando micro:bit, Makey Makey e eletrônica básica.",
+    "image": "assets/images/project-robotics.png",
+    "github": "https://github.com/xandymagnus",
+    "demo": "#",
+    "technologies": [
+      "micro:bit",
+      "Makey Makey",
+      "C"
+    ],
+    "featured": false
+  },
+
+  {
+    "id": 6,
+    "title": "Banco de Dados SQL Playground",
+    "category": "sql",
+    "description": "Coleção de exercícios e projetos utilizando SQL, SQLite e PostgreSQL.",
+    "image": "assets/images/project-sql.png",
+    "github": "https://github.com/xandymagnus",
+    "demo": "#",
+    "technologies": [
+      "SQL",
+      "SQLite",
+      "PostgreSQL"
+    ],
+    "featured": false
+  }
+]
