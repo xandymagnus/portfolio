@@ -34,10 +34,10 @@
     "Inglês Técnico"
   ],
   "levels": {
-    "Python": 82,
+    "Python": 70,
     "JavaScript": 70,
-    "HTML/CSS": 78,
-    "SQL": 65,
-    "Docker": 45
+    "HTML/CSS": 65,
+    "SQL": 60,
+    "Docker": 35
   }
 }

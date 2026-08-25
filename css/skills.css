@@ -182,8 +182,8 @@
 
 }
 
-.python{ width:82%; }
+.python{ width:70%; }
 .javascript{ width:70%; }
-.html-css{ width:78%; }
-.sql{ width:65%; }
-.docker{ width:45%; }
+.html-css{ width: 65%; }
+.sql{ width:60%; }
+.docker{ width:35%; }
