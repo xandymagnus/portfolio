@@ -377,142 +377,54 @@
 </section>
 
 <section id="projects" class="projects-section">
-  <div class="section-title">
-    <p>SEÇÃO 04</p>
-    <h2>Projetos</h2>
-  </div>
 
-  <div class="project-filter">
-    <button>Todos</button>
-    <button>Python</button>
-    <button>JavaScript</button>
-    <button>SQL</button>
-    <button>FastAPI</button>
-  </div>
+    <div class="container">
 
-  <div class="projects-grid">
+        <div class="section-title">
+            <p>SEÇÃO 04</p>
+            <h2>Projetos</h2>
+        </div>
 
-    <article class="project-card">
-      <img src="assets/images/project-school-manager.png" alt="Sistema de Gerenciamento Escolar">
+        <p class="projects-description">
+            Alguns dos projetos que desenvolvi durante meus estudos e experiência profissional.
+            Cada projeto representa uma etapa importante da minha evolução como desenvolvedor.
+        </p>
 
-      <h3>Sistema de Gerenciamento de Horários Escolares</h3>
+        <div class="project-filter">
 
-      <p>
-        Sistema Full Stack desenvolvido para gerenciamento de horários escolares,
-        professores, disciplinas e salas.
-      </p>
+            <button class="filter-button active" data-filter="all">
+                Todos
+            </button>
 
-      <ul class="project-stack">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>SQL</li>
-      </ul>
+            <button class="filter-button" data-filter="python">
+                Python
+            </button>
 
-      <div class="project-links">
-        <a href="#">GitHub</a>
-        <a href="#">Demo</a>
-      </div>
-    </article>
+            <button class="filter-button" data-filter="javascript">
+                JavaScript
+            </button>
 
-    <article class="project-card">
-      <img src="assets/images/project-averating.png" alt="Calculadora de Notas">
+            <button class="filter-button" data-filter="sql">
+                SQL
+            </button>
 
-      <h3>Averating — Calculadora de Notas</h3>
+            <button class="filter-button" data-filter="html-css">
+                HTML/CSS
+            </button>
 
-      <p>
-        Aplicação para cálculo de médias inspirada no MyAnimeList utilizando SQLite e JavaScript.
-      </p>
+            <button class="filter-button" data-filter="robotics">
+                Robótica
+            </button>
 
-      <ul class="project-stack">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>SQLite</li>
-      </ul>
+        </div>
 
-      <div class="project-links">
-        <a href="#">GitHub</a>
-        <a href="#">Demo</a>
-      </div>
-    </article>
 
-    <article class="project-card">
-      <img src="assets/images/project-portfolio.png" alt="Portfólio">
+        <div id="projects-grid" class="projects-grid">
 
-      <h3>Portfólio Profissional</h3>
+        </div>
 
-      <p>
-        Este portfólio desenvolvido com HTML, CSS e JavaScript seguindo arquitetura modular.
-      </p>
+    </div>
 
-      <ul class="project-stack">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-
-      <div class="project-links">
-        <a href="#">GitHub</a>
-        <a href="#">Demo</a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <img src="assets/images/project-fastapi.png" alt="API FastAPI">
-
-      <h3>API REST com FastAPI</h3>
-
-      <p>Projeto para estudo de APIs REST, autenticação e banco de dados.</p>
-
-      <ul class="project-stack">
-        <li>FastAPI</li>
-        <li>Python</li>
-        <li>PostgreSQL</li>
-      </ul>
-
-      <div class="project-links">
-        <a href="#">GitHub</a>
-        <a href="#">Demo</a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <img src="assets/images/project-robotics.png" alt="Projetos de Robótica">
-
-      <h3>Projetos de Robótica Educacional</h3>
-
-      <p>Projetos utilizando micro:bit, Makey Makey e conceitos de eletrônica.</p>
-
-      <ul class="project-stack">
-        <li>micro:bit</li>
-        <li>Makey Makey</li>
-        <li>C</li>
-      </ul>
-
-      <div class="project-links">
-        <a href="#">GitHub</a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <img src="assets/images/project-coming-soon.png" alt="Projeto futuro">
-
-      <h3>Em Desenvolvimento</h3>
-
-      <p>Espaço reservado para futuros projetos.</p>
-
-      <ul class="project-stack">
-        <li>Em breve</li>
-      </ul>
-
-      <div class="project-links">
-        <a href="#">GitHub</a>
-      </div>
-    </article>
-
-  </div>
 </section>
 
 <section id="education" class="education-section">
@@ -696,5 +608,8 @@
 
 </footer>
 
+  <script src="js/menu.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
