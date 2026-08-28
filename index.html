@@ -412,10 +412,6 @@
                 HTML/CSS
             </button>
 
-            <button class="filter-button" data-filter="robotics">
-                Robótica
-            </button>
-
         </div>
 
 
@@ -458,49 +454,47 @@
   </div>
 </section>
 
-<section id="experience" class="experience-section">
-  <div class="section-title">
-    <p>SEÇÃO 06</p>
-    <h2>Experiência Profissional</h2>
-  </div>
+<section id="timeline" class="timeline-section">
 
-  <article class="experience-card">
-    <header>
-      <h3>CNA Idiomas</h3>
-      <p>Professor de Robótica e Programação</p>
-      <span>Emprego Atual</span>
-    </header>
+    <div class="container">
 
-    <p>
-      Responsável por ministrar aulas de programação e robótica para crianças e adolescentes,
-      ensinando lógica de programação, desenvolvimento web e conceitos fundamentais da computação.
-    </p>
+        <div class="section-title">
 
-    <h4>Principais atividades</h4>
+            <p>SEÇÃO 05</p>
+            <h2>Minha Jornada</h2>
 
-    <ul>
-      <li>Planejamento de aulas de programação.</li>
-      <li>Ensino de HTML, CSS e JavaScript.</li>
-      <li>Introdução à linguagem Python.</li>
-      <li>Ensino de Git e GitHub.</li>
-      <li>Conceitos básicos de algoritmos.</li>
-      <li>Atividades de robótica com micro:bit e Makey Makey.</li>
-    </ul>
+        </div>
 
-    <h4>Tecnologias utilizadas</h4>
+        <p class="timeline-description">
 
-    <ul class="project-stack">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>Tailwind CSS</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>C</li>
-    </ul>
+            Minha evolução acadêmica e profissional durante os últimos anos.
 
-  </article>
+        </p>
+
+        <div class="timeline-filter">
+
+            <button class="timeline-button active" data-filter="all">
+                Tudo
+            </button>
+
+            <button class="timeline-button" data-filter="education">
+                Formação
+            </button>
+
+            <button class="timeline-button" data-filter="experience">
+                Experiência
+            </button>
+
+        </div>
+
+        <div id="timeline-container" class="timeline-container">
+
+            <!-- Timeline criada via JavaScript -->
+
+        </div>
+
+    </div>
+
 </section>
 
 <section id="certificates" class="certificates-section">
@@ -608,8 +602,9 @@
 
 </footer>
 
-  <script src="js/menu.js"></script>
-  <script src="js/projects.js"></script>
-  <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
