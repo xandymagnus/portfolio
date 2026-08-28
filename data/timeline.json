@@ -1,0 +1,46 @@
+[
+  {
+    "id":1,
+    "type":"education",
+    "year":"2023",
+    "title":"Início da Programação",
+    "institution":"Estudos Independentes",
+    "description":"Primeiros contatos com lógica de programação, HTML, CSS e JavaScript."
+  },
+
+  {
+    "id":2,
+    "type":"education",
+    "year":"2024",
+    "title":"Formação Back-end Python",
+    "institution":"Alura",
+    "description":"Estudos em Python, APIs REST, Banco de Dados SQL e Git."
+  },
+
+  {
+    "id":3,
+    "type":"education",
+    "year":"2025",
+    "title":"Engenharia de Software",
+    "institution":"Anhanguera",
+    "description":"Graduação em Engenharia de Software com foco em desenvolvimento web e arquitetura de sistemas."
+  },
+
+  {
+    "id":4,
+    "type":"experience",
+    "year":"2026",
+    "title":"Professor de Robótica e Programação",
+    "institution":"CNA Idiomas",
+    "description":"Ministro aulas de programação e robótica ensinando HTML, CSS, JavaScript, Python, Git/GitHub, lógica e micro:bit."
+  },
+
+  {
+    "id":5,
+    "type":"education",
+    "year":"2026",
+    "title":"Cloud Computing & Docker",
+    "institution":"Alura",
+    "description":"Estudo de Docker, Linux e Computação em Nuvem para aplicações escaláveis."
+  }
+]
