@@ -1,0 +1,233 @@
+/* =====================================================
+   CERTIFICATES.CSS
+===================================================== */
+
+.certificates-description{
+
+    max-width:700px;
+
+    margin-bottom:3rem;
+
+}
+
+/* ESTATÍSTICAS */
+
+.stats-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:1.5rem;
+
+    margin-bottom:5rem;
+
+}
+
+.stat-card{
+
+    background:linear-gradient(
+        180deg,
+        rgba(37,99,235,.15),
+        var(--color-surface)
+    );
+
+    border:1px solid var(--color-border);
+
+    padding:2rem;
+
+    border-radius:var(--radius-xl);
+
+    text-align:center;
+
+    transition:var(--transition-normal);
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:var(--color-primary);
+
+}
+
+.stat-card h3{
+
+    font-size:2.3rem;
+
+    color:var(--color-primary);
+
+    margin-bottom:.5rem;
+
+}
+
+.stat-card p{
+
+    font-size:.9rem;
+
+}
+
+/* CABEÇALHO */
+
+.certificate-header{
+
+    margin-bottom:2rem;
+
+}
+
+.certificate-header h3{
+
+    color:var(--color-white);
+
+    margin-bottom:.5rem;
+
+}
+
+/* GRID */
+
+.certificates-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:2rem;
+
+}
+
+/* CARD */
+
+.certificate-card{
+
+    background:var(--color-surface);
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-xl);
+
+    padding:2rem;
+
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+
+    transition:var(--transition-normal);
+
+}
+
+.certificate-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--color-primary);
+
+    box-shadow:var(--shadow-blue);
+
+}
+
+.certificate-category{
+
+    display:inline-block;
+
+    width:max-content;
+
+    padding:.4rem .8rem;
+
+    border-radius:999px;
+
+    background:rgba(37,99,235,.12);
+
+    color:var(--color-primary-light);
+
+    font-size:.8rem;
+
+}
+
+.certificate-card h3{
+
+    color:var(--color-white);
+
+}
+
+.certificate-platform{
+
+    color:var(--color-text-secondary);
+
+    font-weight:600;
+
+}
+
+.certificate-year{
+
+    color:var(--color-primary-light);
+
+    font-size:.85rem;
+
+}
+
+/* GITHUB CARD */
+
+.github-card{
+
+    margin-top:5rem;
+
+    background:linear-gradient(
+        135deg,
+        var(--color-surface),
+        rgba(37,99,235,.15)
+    );
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-xl);
+
+    padding:3rem;
+
+    display:grid;
+    grid-template-columns:1fr .8fr;
+
+    align-items:center;
+
+    gap:2rem;
+
+}
+
+.github-tag{
+
+    color:var(--color-primary-light);
+
+    font-size:.8rem;
+
+    letter-spacing:2px;
+
+}
+
+.github-content h3{
+
+    color:var(--color-white);
+
+    margin:.5rem 0 1rem;
+
+}
+
+.github-buttons{
+
+    margin-top:2rem;
+
+}
+
+.github-preview{
+
+    display:flex;
+    justify-content:center;
+
+}
+
+.github-preview img{
+
+    width:100%;
+    border-radius:var(--radius-lg);
+
+    border:1px solid var(--color-border);
+
+}
