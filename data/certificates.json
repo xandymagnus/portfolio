@@ -1,0 +1,49 @@
+[
+    {
+        "title":"Formação Back-end Python",
+        "platform":"Alura",
+        "category":"Python",
+        "year":"2026",
+        "description":"Formação completa em desenvolvimento Back-end utilizando Python."
+    },
+
+    {
+        "title":"Git e GitHub",
+        "platform":"Alura",
+        "category":"Git",
+        "year":"2026",
+        "description":"Versionamento de código, colaboração e GitHub."
+    },
+
+    {
+        "title":"HTML5 e CSS3",
+        "platform":"Alura",
+        "category":"Front-end",
+        "year":"2026",
+        "description":"HTML semântico, Flexbox, Grid Layout e responsividade."
+    },
+
+    {
+        "title":"JavaScript para Web",
+        "platform":"Alura",
+        "category":"JavaScript",
+        "year":"2026",
+        "description":"DOM, eventos, funções, módulos e consumo de APIs."
+    },
+
+    {
+        "title":"Docker e Containers",
+        "platform":"Alura",
+        "category":"DevOps",
+        "year":"2026",
+        "description":"Criação de containers e ambientes de desenvolvimento."
+    },
+
+    {
+        "title":"SQL com PostgreSQL",
+        "platform":"Alura",
+        "category":"Banco de Dados",
+        "year":"2026",
+        "description":"Consultas SQL, relacionamentos e banco de dados relacional."
+    }
+]
