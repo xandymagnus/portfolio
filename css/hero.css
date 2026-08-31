@@ -211,3 +211,23 @@
     }
 
 }
+
+/* CURSOR */
+
+.cursor{
+
+    color:var(--color-primary);
+
+    animation:blink .8s infinite;
+
+}
+
+@keyframes blink{
+
+    50%{
+
+        opacity:0;
+
+    }
+
+}
