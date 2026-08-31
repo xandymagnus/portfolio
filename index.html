@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/certificates.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/hero.css">
@@ -16,7 +17,6 @@
   <link rel="stylesheet" href="css/skills.css">
   <link rel="stylesheet" href="css/timeline.css">
   <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -66,7 +66,7 @@
 
 <main>
 
-<section id="hero" class="hero-section">
+<section id="hero" class="hero-section reveal">
 
     <div class="container hero-container">
 
@@ -134,7 +134,7 @@
 
 </section>
 
-<section id="about" class="about-section">
+<section id="about" class="about-section reveal">
 
     <div class="container">
 
@@ -216,7 +216,7 @@
 
 </section>
 
-<section id="skills" class="skills-section">
+<section id="skills" class="skills-section reveal">
 
     <div class="container">
 
@@ -378,7 +378,7 @@
 
 </section>
 
-<section id="projects" class="projects-section">
+<section id="projects" class="projects-section reveal">
 
     <div class="container">
 
@@ -425,7 +425,7 @@
 
 </section>
 
-<section id="education" class="education-section">
+<section id="education" class="education-section reveal">
   <div class="section-title">
     <p>SEÇÃO 05</p>
     <h2>Formação & Estudos</h2>
@@ -456,7 +456,7 @@
   </div>
 </section>
 
-<section id="timeline" class="timeline-section">
+<section id="timeline" class="timeline-section reveal">
 
     <div class="container">
 
@@ -499,7 +499,7 @@
 
 </section>
 
-<section id="certificates" class="certificates-section">
+<section id="certificates" class="certificates-section reveal">
 
     <div class="container">
 
@@ -601,80 +601,213 @@
 
 </section>
 
-<section id="contact" class="contact-section">
-  <div class="section-title">
-    <p>SEÇÃO 08</p>
-    <h2>Contato</h2>
-  </div>
+<section id="contact" class="contact-section reveal">
 
-  <div class="contact-container">
+    <div class="container">
 
-    <article class="contact-information">
+        <div class="section-title">
 
-      <h3>Vamos conversar?</h3>
+            <p>SEÇÃO 07</p>
+            <h2>Contato</h2>
 
-      <p>
-        Estou disponível para oportunidades de estágio, projetos e networking.
-      </p>
+        </div>
 
-      <ul>
-        <li>Email: xandy.magno325@gmail.com</li>
-        <li>GitHub: github.com/xandymagnus</li>
-        <li>LinkedIn: linkedin.com/in/alexandre-magno-3baa85219</li>
-      </ul>
+        <div class="contact-grid">
 
-    </article>
+            <!-- Informações -->
 
-    <form class="contact-form">
+            <article class="contact-information card">
 
-      <label for="name">Nome</label>
-      <input id="name" name="name" type="text" placeholder="Seu nome">
+                <span class="contact-tag">
+                    DISPONÍVEL PARA OPORTUNIDADES
+                </span>
 
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" placeholder="Seu email">
+                <h3>Vamos conversar?</h3>
 
-      <label for="subject">Assunto</label>
-      <input id="subject" name="subject" type="text" placeholder="Assunto">
+                <p>
+                    Estou disponível para oportunidades de estágio,
+                    projetos freelancer e networking na área de tecnologia.
+                </p>
 
-      <label for="message">Mensagem</label>
-      <textarea id="message" name="message" rows="6" placeholder="Escreva sua mensagem"></textarea>
+                <ul class="contact-list">
 
-      <button type="submit">Enviar mensagem</button>
+                    <li>
+                        <strong>Email</strong>
+                        <a href="mailto:xandy.magno325@gmail.com">
+                            xandy.magno325@gmail.com
+                        </a>
+                    </li>
 
-    </form>
+                    <li>
+                        <strong>GitHub</strong>
+                        <a href="https://github.com/xandymagnus" target="_blank">
+                            github.com/xandymagnus
+                        </a>
+                    </li>
 
-  </div>
+                    <li>
+                        <strong>LinkedIn</strong>
+                        <a href="https://linkedin.com/" target="_blank">
+                            linkedin.com/in/alexandre-magno
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>Localização</strong>
+                        Brasil
+                    </li>
+
+                </ul>
+
+                <a
+                    href="assets/documents/curriculo.pdf"
+                    class="button-primary">
+
+                    Download Currículo
+
+                </a>
+
+            </article>
+
+            <!-- Formulário -->
+
+            <form class="contact-form card">
+
+                <div class="input-group">
+
+                    <label for="name">Nome</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Seu nome">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Seu email">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="subject">Assunto</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        placeholder="Assunto da mensagem">
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="message">Mensagem</label>
+
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Escreva sua mensagem...">
+                    </textarea>
+
+                </div>
+
+                <button type="submit" class="button-primary">
+                    Enviar mensagem
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
 </section>
 
 </main>
 
-<footer class="footer">
+<footer class="footer reveal">
 
-  <section class="footer-links">
-    <h2>Alexandre Magno</h2>
+    <div class="container footer-grid">
 
-    <nav>
-      <a href="#hero">Início</a>
-      <a href="#projects">Projetos</a>
-      <a href="#contact">Contato</a>
-      <a href="assets/documents/curriculo.pdf">Currículo</a>
-    </nav>
-  </section>
+        <div class="footer-brand">
 
-  <section class="footer-social">
-    <a href="https://github.com/xandymagnus">GitHub</a>
-    <a href="https://www.linkedin.com/in/alexandre-magno-3baa85219/">LinkedIn</a>
-    <a href="mailto:xandy.magno325@gmail.com">Email</a>
-  </section>
+            <a href="#hero" class="logo">
 
-  <p>© 2026 Alexandre Magno — Desenvolvido com HTML5, CSS3 e JavaScript.</p>
+                <span class="logo-highlight">A</span>M
+
+            </a>
+
+            <p>
+                Desenvolvedor Full Stack focado em criar aplicações web
+                modernas utilizando HTML, CSS, JavaScript, Python e SQL.
+            </p>
+
+        </div>
+
+        <nav class="footer-navigation">
+
+            <h4>Navegação</h4>
+
+            <a href="#hero">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projetos</a>
+            <a href="#timeline">Jornada</a>
+            <a href="#contact">Contato</a>
+
+        </nav>
+
+        <div class="footer-social">
+
+            <h4>Redes</h4>
+
+            <a href="https://github.com/xandymagnus" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="mailto:xandy.magno325@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div class="container footer-bottom-content">
+
+            <p>
+                © 2026 Alexandre Magno.
+                Desenvolvido com HTML5, CSS3 e JavaScript.
+            </p>
+
+            <span>
+                Engenharia de Software • Anhanguera
+            </span>
+
+        </div>
+
+    </div>
 
 </footer>
 
-    <script src="js/certificates.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/projects.js"></script>
     <script src="js/timeline.js"></script>
+    <script src="js/certificates.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
