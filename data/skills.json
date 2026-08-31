@@ -19,7 +19,8 @@
   "database": [
     "SQLite",
     "PostgreSQL",
-    "SQL"
+    "SQL",
+    "MongoDB"
   ],
   "tools": [
     "Git",

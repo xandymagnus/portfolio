@@ -7,11 +7,20 @@
     "institution":"Estudos Independentes",
     "description":"Primeiros contatos com lógica de programação, HTML, CSS e JavaScript."
   },
+  
+  {
+    "id": 7,
+    "type": "education",
+    "year": "2024",
+    "title": "Desenvolvimento com NodeJs",
+    "institution": "Alura",
+    "description": "Desenvolvimento Backend com Nodejs utilizando MongoDB e diversas bibliotecas como express, nestJS, Prisma, Mongoose, Dotenv, Jest, Zod, etc..."
+  },
 
   {
     "id":2,
     "type":"education",
-    "year":"2024",
+    "year":"2025",
     "title":"Formação Back-end Python",
     "institution":"Alura",
     "description":"Estudos em Python, APIs REST, Banco de Dados SQL e Git."
@@ -21,9 +30,9 @@
     "id":3,
     "type":"education",
     "year":"2025",
-    "title":"Engenharia de Software",
+    "title":"Ciência da Computação",
     "institution":"Anhanguera",
-    "description":"Graduação em Engenharia de Software com foco em desenvolvimento web e arquitetura de sistemas."
+    "description":"Graduação em Ciência da Computação com foco em desenvolvimento e arquitetura de sistemas."
   },
 
   {
@@ -32,7 +41,7 @@
     "year":"2026",
     "title":"Professor de Robótica e Programação",
     "institution":"CNA Idiomas",
-    "description":"Ministro aulas de programação e robótica ensinando HTML, CSS, JavaScript, Python, Git/GitHub, lógica e micro:bit."
+    "description":"Ministro aulas de programação e robótica ensinando HTML, CSS, JavaScript, Python, Frameworks, Git/GitHub, Circuitos, Arduino, etc."
   },
 
   {
@@ -42,5 +51,15 @@
     "title":"Cloud Computing & Docker",
     "institution":"Alura",
     "description":"Estudo de Docker, Linux e Computação em Nuvem para aplicações escaláveis."
+  },
+
+  {
+    "id": 6,
+    "type": "experience",
+    "year": "2026",
+    "title": "Quadro de horários",
+    "institution": "Anhanguera",
+    "description": "Projeto FullStack voltado no gerenciamento de aulas utilizando PostgreSQL para o armazenamento de dados; JavaScript(com nodejs) no frontend e backend."
   }
+
 ]

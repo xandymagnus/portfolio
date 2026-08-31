@@ -69,16 +69,18 @@
 
   {
     "id": 5,
-    "title": "Projetos de Robótica Educacional",
-    "category": "robotics",
-    "description": "Projetos desenvolvidos durante aulas de robótica utilizando micro:bit, Makey Makey e eletrônica básica.",
+    "title": "AOWJJ",
+    "category": "javascript",
+    "description": "Projeto desenvolvido para uma equipe de Jiu-Jitsu.",
     "image": "assets/images/project-robotics.png",
     "github": "https://github.com/xandymagnus",
     "demo": "#",
     "technologies": [
-      "micro:bit",
-      "Makey Makey",
-      "C"
+      "Node.js",
+      "React",
+      "SQL",
+      "Python",
+      "Cloud computing"
     ],
     "featured": false
   },

@@ -7,11 +7,8 @@ const typingElement =
 
 const texts = [
 
-    "Desenvolvedor Full Stack",
-    "Back-end Python",
-    "Professor de Programação",
-    "Engenharia de Software"
-
+    "Desenvolvedor Full Stack JavaScript",
+    "Back-end Python"
 ];
 
 let textIndex = 0;
