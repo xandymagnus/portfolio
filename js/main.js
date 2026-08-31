@@ -73,3 +73,48 @@ function animateCounter(counter){
     update();
 
 }
+
+/* ============================================
+   SCROLL SPY
+============================================ */
+
+const sections =
+    document.querySelectorAll("section");
+
+const navLinks =
+    document.querySelectorAll(".nav-menu a");
+
+const sectionObserver =
+    new IntersectionObserver((entries)=>{
+
+        entries.forEach(entry=>{
+
+            if(entry.isIntersecting){
+
+                const id = entry.target.id;
+
+                navLinks.forEach(link=>{
+
+                    link.classList.remove("active");
+
+                    if(link.getAttribute("href") === "#" + id){
+
+                        link.classList.add("active");
+
+                    }
+
+                });
+
+            }
+
+        });
+
+    },{
+        threshold:0.45
+    });
+
+sections.forEach(section=>{
+
+    sectionObserver.observe(section);
+
+});
