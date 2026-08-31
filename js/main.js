@@ -2,12 +2,14 @@
    MAIN.JS
 ===================================================== */
 
-console.log("Portfólio iniciado.");
+const contactForm = document.querySelector(".contact-form");
 
-/* Inicializações futuras */
+contactForm.addEventListener("submit",(event)=>{
 
-document.addEventListener("DOMContentLoaded", ()=>{
+    event.preventDefault();
 
-    console.log("DOM carregado.");
+    alert("Mensagem enviada! (Em breve será integrado com um serviço de email)");
+
+    contactForm.reset();
 
 });
