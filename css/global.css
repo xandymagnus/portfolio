@@ -377,3 +377,100 @@ code{
     transform:translateY(0);
 
 }
+
+/* ============================================
+   BACK TO TOP
+============================================ */
+
+#back-to-top{
+
+    position:fixed;
+
+    right:2rem;
+    bottom:2rem;
+
+    width:52px;
+    height:52px;
+
+    border-radius:50%;
+
+    background:var(--color-primary);
+
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:var(--transition-normal);
+
+    z-index:999;
+
+}
+
+#back-to-top.show{
+
+    opacity:1;
+    visibility:visible;
+
+}
+
+#back-to-top:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* ============================================
+   MICROINTERAÇÕES
+============================================ */
+
+.button-primary,
+.button-secondary{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.button-primary::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    transform:translateX(-100%);
+
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.25),
+        transparent
+    );
+
+    transition:.8s;
+
+}
+
+.button-primary:hover::before{
+
+    transform:translateX(100%);
+
+}
+
+/* HOVER SUAVE NOS CARDS */
+
+.card{
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+
+}
