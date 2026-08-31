@@ -98,3 +98,22 @@
     --header-height: 80px;
 
 }
+
+/* =====================================================
+   LIGHT THEME
+===================================================== */
+
+body.light-theme{
+
+    --color-background:#f4f7fb;
+    --color-surface:#ffffff;
+    --color-surface-light:#e9eef7;
+
+    --color-border:#d7dfea;
+
+    --color-white:#111827;
+
+    --color-text:#1f2937;
+    --color-text-secondary:#4b5563;
+
+}
