@@ -204,3 +204,17 @@
     }
 
 }
+
+/* LINK ATIVO */
+
+.nav-menu a.active{
+
+    color:var(--color-white);
+
+}
+
+.nav-menu a.active::after{
+
+    width:100%;
+
+}
