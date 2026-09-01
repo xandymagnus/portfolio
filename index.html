@@ -44,9 +44,27 @@
 
             <div class="header-actions">
 
-                <button class="language-button" aria-label="Trocar idioma">
-                    PT-BR
-                </button>
+                <div class="language-selector">
+
+                    <button
+                        id="language-button"
+                        class="language-button"
+                        aria-label="Selecionar idioma">
+
+                        🇧🇷 PT
+
+                    </button>
+
+                    <ul id="language-menu" class="language-menu">
+
+                        <li data-language="pt-BR">🇧🇷 Português</li>
+                        <li data-language="en-US">🇺🇸 English</li>
+                        <li data-language="es-ES">🇪🇸 Español</li>
+                        <li data-language="ru-RU">🇷🇺 Русский</li>
+
+                    </ul>
+
+                </div>
 
                 <button class="theme-button" aria-label="Trocar tema">
                     🌙
@@ -72,36 +90,48 @@
 
         <div class="hero-content">
 
-            <p class="hero-tag">
-                PORTFÓLIO • 2026
+            <p class="hero-tag" data-i18n="hero.tag">
+                 PORTFÓLIO • 2026
             </p>
 
             <h1 class="hero-title">
                 Alexandre Magno
             </h1>
 
-            <h2 class="hero-subtitle">
-                <span id="typing-text"></span>
-                <span class="cursor">|</span>
-            </h2>
+            <p
+                class="hero-description"
+                data-i18n="hero.description">
 
-            <p class="hero-description">
-                Desenvolvedor Full Stack focado em criar aplicações web robustas,
-                seguras e altamente escaláveis.
-                Apaixonado por arquitetura de software,
-                desenvolvimento Back-end e soluções web modernas.
+                    Desenvolvedor Full Stack focado em criar aplicações web robustas,
+                    seguras e altamente escaláveis.
+                    Apaixonado por arquitetura de software,
+                    desenvolvimento Back-end e soluções web modernas.
             </p>
 
             <div class="hero-buttons">
 
-                <a href="#projects" class="button-primary">
-                    Ver Projetos
+                <a
+                    href="#projects"
+                    class="button-primary"
+                    data-i18n="hero.projects">
+
+                        Ver Projetos
+
+                </a>
+
+                <a
+                    href="#contact"
+                    class="button-secondary"
+                    data-i18n="hero.contact">
+
+                        Entrar em Contato
+
                 </a>
 
                 <a href="assets/documents/curriculo.pdf"
                    class="button-secondary">
 
-                    Download CV
+                        Download CV
 
                 </a>
 
@@ -141,7 +171,7 @@
 
         <div class="section-title">
             <p>SEÇÃO 02</p>
-            <h2>Sobre Mim</h2>
+            <h2 data-i18n="about.title">Sobre Mim</h2>
         </div>
 
         <div class="about-grid">
@@ -157,7 +187,7 @@
 
             <article class="about-content">
 
-                <h3>
+                <h3 data-i18n="about.subtitle">
                     Desenvolvedor apaixonado por criar soluções completas.
                 </h3>
 
@@ -223,7 +253,7 @@
 
         <div class="section-title">
             <p>SEÇÃO 03</p>
-            <h2>Tecnologias e Ferramentas</h2>
+            <h2 data-i18n="skills.title">Tecnologias e Ferramentas</h2>
         </div>
 
         <div class="skills-summary">
@@ -384,10 +414,10 @@
 
         <div class="section-title">
             <p>SEÇÃO 04</p>
-            <h2>Projetos</h2>
+            <h2 data-i18n="projects.title">Projetos</h2>
         </div>
 
-        <p class="projects-description">
+        <p class="projects-description" data-i18n="projects.description">
             Alguns dos projetos que desenvolvi durante meus estudos e experiência profissional.
             Cada projeto representa uma etapa importante da minha evolução como desenvolvedor.
         </p>
