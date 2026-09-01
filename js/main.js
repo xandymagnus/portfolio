@@ -152,3 +152,17 @@ backToTop.addEventListener("click",()=>{
     });
 
 });
+
+/* ============================================
+   FECHAR MENUS COM ESC
+============================================ */
+
+window.addEventListener("keydown",(event)=>{
+
+    if(event.key === "Escape"){
+
+        languageMenu.classList.remove("show");
+
+    }
+
+});
