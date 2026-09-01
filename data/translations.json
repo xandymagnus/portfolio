@@ -1,0 +1,203 @@
+{
+  "pt-BR":{
+
+    "nav": {
+        "home": "Início",
+        "about": "Sobre",
+        "skills": "Tecnologias",
+        "projects": "Projetos",
+        "timeline": "Jornada",
+        "contact": "Contato"
+    },
+
+    "hero":{
+      "tag":"PORTFÓLIO • 2026",
+      "description":"Desenvolvedor Full Stack focado em criar aplicações web robustas, seguras e altamente escaláveis.",
+      "projects":"Ver Projetos",
+      "contact":"Entrar em Contato"
+    },
+
+    "about":{
+      "title":"Sobre Mim",
+      "subtitle":"Desenvolvedor apaixonado por criar soluções completas.",
+      "paragraph1":"Desenvolvedor Full Stack focado em arquitetura, organização e aprendizado contínuo.",
+      "paragraph2":"Atualmente curso Engenharia de Software e estudo Python, JavaScript, Docker e Cloud."
+    },
+
+    "skills":{
+      "title":"Tecnologias e Ferramentas"
+    },
+
+    "projects":{
+      "title":"Projetos",
+      "description":"Alguns projetos que desenvolvi durante minha evolução como desenvolvedor."
+    },
+
+    "timeline":{
+      "title":"Minha Jornada"
+    },
+
+    "contact":{
+      "title":"Contato",
+      "available":"DISPONÍVEL PARA OPORTUNIDADES",
+      "talk":"Vamos conversar?"
+    },
+
+    "footer":{
+      "rights":"© 2026 Alexandre Magno. Desenvolvido com HTML5, CSS3 e JavaScript."
+    }
+
+  },
+
+  "en-US":{
+
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "timeline": "Timeline",
+        "contact": "Contact"
+    },
+
+    "hero":{
+      "tag":"PORTFOLIO • 2026",
+      "description":"Full Stack Developer focused on building robust, secure and scalable web applications.",
+      "projects":"View Projects",
+      "contact":"Contact Me"
+    },
+
+    "about":{
+      "title":"About Me",
+      "subtitle":"Developer passionate about building complete solutions.",
+      "paragraph1":"Full Stack Developer focused on software architecture, organization and continuous learning.",
+      "paragraph2":"Currently studying Software Engineering while improving my Python, JavaScript, Docker and Cloud skills."
+    },
+
+    "skills":{
+      "title":"Technologies & Tools"
+    },
+
+    "projects":{
+      "title":"Projects",
+      "description":"Some projects developed during my learning journey."
+    },
+
+    "timeline":{
+      "title":"My Journey"
+    },
+
+    "contact":{
+      "title":"Contact",
+      "available":"OPEN TO OPPORTUNITIES",
+      "talk":"Let's Talk"
+    },
+
+    "footer":{
+      "rights":"© 2026 Alexandre Magno. Built with HTML5, CSS3 and JavaScript."
+    }
+
+  },
+
+  "es-ES":{
+
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "timeline": "Trayectoria",
+        "contact": "Contacto"
+    },
+
+
+    "hero":{
+      "tag":"PORTAFOLIO • 2026",
+      "description":"Desarrollador Full Stack enfocado en crear aplicaciones web robustas, seguras y escalables.",
+      "projects":"Ver Proyectos",
+      "contact":"Contactar"
+    },
+
+    "about":{
+      "title":"Sobre Mí",
+      "subtitle":"Desarrollador apasionado por crear soluciones completas.",
+      "paragraph1":"Desarrollador Full Stack enfocado en arquitectura de software y aprendizaje continuo.",
+      "paragraph2":"Actualmente estudio Ingeniería de Software y tecnologías como Python, Docker y Cloud."
+    },
+
+    "skills":{
+      "title":"Tecnologías y Herramientas"
+    },
+
+    "projects":{
+      "title":"Proyectos",
+      "description":"Algunos proyectos desarrollados durante mi evolución profesional."
+    },
+
+    "timeline":{
+      "title":"Mi Trayectoria"
+    },
+
+    "contact":{
+      "title":"Contacto",
+      "available":"DISPONIBLE PARA OPORTUNIDADES",
+      "talk":"Hablemos"
+    },
+
+    "footer":{
+      "rights":"© 2026 Alexandre Magno. Desarrollado con HTML5, CSS3 y JavaScript."
+    }
+
+  },
+
+  "ru-RU":{
+
+    "nav": {
+        "home": "Главная",
+        "about": "О нас",
+        "skills": "Навыки",
+        "projects": "Проекты",
+        "timeline": "История",
+        "contact": "Контакты"
+    },
+
+    "hero":{
+      "tag":"ПОРТФОЛИО • 2026",
+      "description":"Full Stack разработчик, создающий современные, безопасные и масштабируемые веб-приложения.",
+      "projects":"Проекты",
+      "contact":"Связаться"
+    },
+
+    "about":{
+      "title":"Обо мне",
+      "subtitle":"Разработчик, увлечённый созданием комплексных решений.",
+      "paragraph1":"Full Stack разработчик, ориентированный на архитектуру программного обеспечения и постоянное обучение.",
+      "paragraph2":"Изучаю Software Engineering, Python, Docker и Cloud Computing."
+    },
+
+    "skills":{
+      "title":"Технологии и инструменты"
+    },
+
+    "projects":{
+      "title":"Проекты",
+      "description":"Некоторые проекты из моего пути разработчика."
+    },
+
+    "timeline":{
+      "title":"Мой путь"
+    },
+
+    "contact":{
+      "title":"Контакты",
+      "available":"ОТКРЫТ ДЛЯ ВОЗМОЖНОСТЕЙ",
+      "talk":"Давайте поговорим"
+    },
+
+    "footer":{
+      "rights":"© 2026 Alexandre Magno. Создано с HTML5, CSS3 и JavaScript."
+    }
+
+  }
+
+}
